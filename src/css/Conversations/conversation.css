@@ -1,0 +1,55 @@
+/*#contacts::-webkit-scrollbar {*/
+    /*display: none;*/
+/*}*/
+
+#conversations .nav-text{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#conversations .preview{
+    margin-top: -35px;
+    margin-left: 60px;
+    width: 150px;
+    color: darkgray;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#conversations::-webkit-scrollbar {
+    width: 4px;
+    border-radius: 5px;
+}
+#conversations::-webkit-scrollbar-thumb {
+
+    height: 200px;
+    background-color: #c3c3a2;
+}
+
+.dot{
+    margin-top: -35px;
+    margin-left: 40px;
+    background-color: #00ff00;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    z-index: 1;
+}
+
+
+
+#contacts::-webkit-scrollbar {
+    width: 4px;
+    border-radius: 5px;
+}
+#contacts::-webkit-scrollbar-thumb {
+    height: 200px;
+    background-color: #c3c3a2;
+}
+
+#contacts nav-text{
+    font-size: 16px;
+    font-weight: bold;
+}
